@@ -48,14 +48,14 @@ magic_fx = pygame.mixer.Sound("assets/audio/magic.wav")
 magic_fx.set_volume(0.75)
 
 #load background image
-bg_image = pygame.image.load("assets/images/background/background.jpg").convert_alpha()
+bg_image = pygame.image.load("assets\images\background\background.webp").convert_alpha()
 
 #load spritesheets
 warrior_sheet = pygame.image.load("assets/images/warrior/Sprites/warrior.png").convert_alpha()
 wizard_sheet = pygame.image.load("assets/images/wizard/Sprites/wizard.png").convert_alpha()
 
 #load vicory image
-victory_img = pygame.image.load("assets/images/icons/victory.png").convert_alpha()
+victory_img = pygame.image.load("assets\images\icons\victory2.png").convert_alpha()
 
 #define number of steps in each animation
 WARRIOR_ANIMATION_STEPS = [10, 8, 1, 7, 7, 3, 7]
